@@ -81,7 +81,7 @@ The pot language matches those profits. Both players have already put in the ant
 
 A player observes their own card and the betting so far. They do not observe the opponent's card. An **information set** is one of those distinguishable situations. The solver names each one with a string: the card, then the actions.
 
-`c` means the passive action: check when nobody has bet, fold when a bet is facing the player. `b` means the aggressive action: bet, or call when a bet is facing the player. `"Kcb"` is Player 1 holding the King, having checked, now deciding whether to fold or call.
+`c` means the passive action: check when nobody has bet, fold when a bet is facing the player. `b` means the aggressive action: bet, or call when a bet is facing the player. `"Kcb"` is Player 1 holding the King, having checked, now deciding whether to fold or call. Even number of actions (0 or 2 letters after card): Player 1's turn (e.g. J, Jcb. Odd number of actions (1 letter after the card): Player 2's turn (e.g. Jb)
 
 | Information set | Who acts | What they know |
 | --- | --- | --- |
